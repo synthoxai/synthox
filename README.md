@@ -30,10 +30,10 @@ Empower innovation with custom, synthetic data that’s fully compliant, trustle
 - Blockchain: Solidity + Polygon
 - AI: CTGAN + Grok API
 - Storage: IPFS
+## Why Synthox?
 
-Why SynthoX?
-Problem                                SynthoX Solution
-#--------------------------------------------------------
-Real data = privacy risk, legal cost ---  **Synthetic data =  zero PII, full compliance**
-Data access limited to big tech --- **Open marketplace for all developers**
-High cost & slow procurement --- **Instant, on-demand generation**
+| Problem | Synthox Solution |
+|------------------------------------|---------------------------------------------|
+| Real data = privacy risk, legal cost | Synthetic data = zero PII, full compliance |
+| Data access limited to big tech | Open marketplace for all developers |
+| High cost + slow procurement | Instant, on-demand generation |
