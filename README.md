@@ -9,7 +9,7 @@ To become the global, decentralized infrastructure for training AI safely—wher
 **Mission**
 Empower innovation with custom, synthetic data that’s fully compliant, trustlessly verifiable, and 99% cheaper than real-world datasets.
 
-> **البيانات التي تحتاجها. بدون المخاطر التي لا تحتاجها.**
+> **The data you need. Without the risks you don't.**
 
 <!-- SynthoX ASCII Logo -->
 <pre style="font-family: 'Courier New', monospace; line-height:1.2;">
@@ -22,8 +22,7 @@ Empower innovation with custom, synthetic data that’s fully compliant, trustle
 <span style="color:#F3F4F6;"> <strong>Synthetic Data Exchange</strong></span>
 </pre>
 
-## Vision
-أن نكون البنية التحتية العالمية لتدريب الذكاء الاصطناعي بأمان.
+
 
 ## Tech Stack
 - Frontend: React + Tailwind
