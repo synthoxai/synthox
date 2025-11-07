@@ -1,7 +1,13 @@
 	
 # Synthox Platform
-منصة عالمية للذكاء الاصطناعي، قيد التطوير.
 # SynthoX – Synthetic Data Marketplace
+> **The data you need. None of the risk you don’t.**
+
+**Vision**
+To become the global, decentralized infrastructure for training AI safely—where every developer accesses high-quality data without compromising privacy.
+
+**Mission**
+Empower innovation with custom, synthetic data that’s fully compliant, trustlessly verifiable, and 99% cheaper than real-world datasets.
 
 > **البيانات التي تحتاجها. بدون المخاطر التي لا تحتاجها.**
 
