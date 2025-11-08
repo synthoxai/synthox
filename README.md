@@ -39,6 +39,8 @@ Empower innovation with custom, synthetic data that’s fully compliant, trustle
 | High cost + slow procurement | Instant, on-demand generation |
 
 
+## Week 2 – System Architecture & Database
+
 ### Architecture
 ```mermaid
 graph TD
@@ -57,6 +59,31 @@ style C fill:#F3F4F6, color:black
 style D fill:#1E3A8A, color:white
 style E fill:#10B981, color:white
 style F fill:#F3F4F6, color:black
+```
 
+### Database Schema
+
+- `users` – Wallet-based identity
+- `domains` – Data categories (medical, finance, retail)
+- `requests` – All generation jobs
+- `generated_files` – Output + compliance reports
+- `price_tiers` – Dynamic pricing per row
+
+Full SQL in [`database/schema.sql`](./database/schema.sql)
+
+### First Demo Dataset
+
+- **Domain**: Medical
+- **Use Case**: Diabetes prediction
+- Sample: [`datasets/diabetes_sample.csv`](./datasets/diabetes_sample.csv)
+
+### Week 2 Checklist
+
+| Task | Status |
+|----------------------------------|----------|
+| Architecture diagram (Mermaid) | ✅ Done |
+| Full PostgreSQL schema | ✅ Done |
+| First demo dataset | ✅ Done |
+| README updated | ✅ Done |
 
 
