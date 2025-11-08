@@ -38,7 +38,7 @@ Empower innovation with custom, synthetic data that’s fully compliant, trustle
 | Data access limited to big tech | Open marketplace for all developers |
 | High cost + slow procurement | Instant, on-demand generation |
 
-```markdown
+
 ### Architecture
 ```mermaid
 graph TD
