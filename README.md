@@ -87,3 +87,22 @@ Full SQL in [`database/schema.sql`](./database/schema.sql)
 | README updated | ✅ Done |
 
 
+## Week 3 – Smart Contract (Solidity)
+
+**Status**: Complete & Ready for Testnet
+
+### Features
+- USDC payments (6 decimals)
+- Request → Pay → Deliver flow
+- IPFS + Compliance report
+- Reentrancy protection
+- Price: $5 per 1,000 rows
+
+### Files
+- [`contracts/SynthoXMarket.sol`](./contracts/SynthoXMarket.sol)
+- [`scripts/deploy.js`](./scripts/deploy.js)
+- [`hardhat.config.js`](./hardhat.config.js)
+
+### Deploy Command
+```bash
+npx hardhat run scripts/deploy.js --network mumbai
