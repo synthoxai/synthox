@@ -104,5 +104,5 @@ Full SQL in [`database/schema.sql`](./database/schema.sql)
 - [`hardhat.config.js`](./hardhat.config.js)
 
 ### Deploy Command
-```bash
+```bash.
 npx hardhat run scripts/deploy.js --network mumbai
