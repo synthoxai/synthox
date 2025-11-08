@@ -37,3 +37,22 @@ Empower innovation with custom, synthetic data that’s fully compliant, trustle
 | Real data = privacy risk, legal cost | Synthetic data = zero PII, full compliance |
 | Data access limited to big tech | Open marketplace for all developers |
 | High cost + slow procurement | Instant, on-demand generation |
+
+### Architecture
+```mermaid
+graph TD
+A[User Wallet<br>MetaMask] --> B[Frontend<br>React + Tailwind]
+B --> C[Backend API<br>FastAPI]
+C --> D[Smart Contract<br>Solidity on Polygon]
+C --> E[AI Data Generator<br>CTGAN + Grok]
+E --> F[IPFS Storage]
+D -->|USDC Payment| C
+F -->|Download Link| B
+B -->|Compliance PDF| A
+
+style A fill:#1E3A8A, color:white
+style B fill:#10B981, color:white
+style C fill:#F3F4F6, color:black
+style D fill:#1E3A8A, color:white
+style E fill:#10B981, color:white
+style F fill:#F3F4F6, color:black
