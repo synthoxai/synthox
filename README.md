@@ -106,3 +106,26 @@ Full SQL in [`database/schema.sql`](./database/schema.sql)
 ### Deploy Command
 ```bash.
 npx hardhat run scripts/deploy.js --network mumbai
+```
+
+
+## Week 4 – AI Data Generator (CTGAN)
+
+**Status**: Fully Functional
+
+### Features
+- Trains on sample medical data
+- Generates 1,000+ synthetic rows
+- Filters by age, etc.
+- Auto-generates **compliance PDF/text**
+- Ready for IPFS upload
+
+### Files
+- [`ai_generator/generate_synthetic.py`](./ai_generator/generate_synthetic.py)
+- [`ai_generator/requirements.txt`](./ai_generator/requirements.txt)
+
+### Run Locally
+```bash
+pip install -r ai_generator/requirements.txt
+python ai_generator/generate_synthetic.py
+```
